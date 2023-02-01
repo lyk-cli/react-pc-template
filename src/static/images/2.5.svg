@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>icon/二级导航/2.5</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon/二级导航/2.5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="fb_benefits-employees_≤24p_HVR" transform="translate(1.000000, 4.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M12.584,6.00235438 L12.584,2.74535438 C12.6628119,1.16314859 14.0010789,-0.0604735185 15.584,0.00235437996 C17.1671227,-0.0610251394 18.5057195,1.16289851 18.584,2.74535438 L18.584,6.00235438" id="路径"></path>
+            <circle id="椭圆形" cx="4.5" cy="3.00235438" r="3"></circle>
+            <path d="M11.145,16.0023544 L20.145,16.0023544 C19.898495,13.293244 19.3914848,10.6141941 18.631,8.00235438 L12.556,8.00235438 C11.826872,10.6168459 11.3543047,13.296179 11.145,16.0023544 L11.145,16.0023544 Z" id="路径"></path>
+            <path d="M0,16.0023544 L9,16.0023544 C8.73861063,13.2930662 8.22198442,10.6145117 7.457,8.00235438 L1.544,8.00235438 L1.544,8.01435438 C0.779532273,10.6226035 0.262579924,13.2970954 0,16.0023544 L0,16.0023544 Z" id="路径"></path>
+        </g>
+    </g>
+</svg>

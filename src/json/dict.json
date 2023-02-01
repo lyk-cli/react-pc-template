@@ -1,0 +1,22 @@
+{
+  "code": 0,
+  "msg": "ok",
+  "data": {
+    "sex": [
+      {
+        "nameCn": "字典1",
+        "nameEn": "dist1",
+        "code": "code1",
+        "desc": "des1",
+        "sort": "1"
+      },
+      {
+        "nameCn": "字典2",
+        "nameEn": "dist2",
+        "code": "code2",
+        "desc": "des2",
+        "sort": "2"
+      }
+    ]
+  }
+}

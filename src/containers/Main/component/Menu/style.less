@@ -1,0 +1,62 @@
+// 左侧菜单栏
+ul.leftMenuBar {
+  // background-color: #0090da;
+  background-color: transparent;
+  color: #fff;
+  li.subMenu {
+    .menuName {
+      .icon i {
+        font-size: 24px;
+        background-color: transparent;
+        border-radius: 0;
+      }
+    }
+    .childMenu {
+      width: 140px;
+      height: 30px;
+      padding: 0 !important;
+      margin: 15px;
+      // &.ant-menu-item-selected {
+      //   background-color: transparent !important;
+      // }
+    }
+    .childMenu::after {
+      display: none;
+    }
+    .childMenu a {
+      width: 140px;
+      height: 30px;
+      line-height: 30px;
+      margin: 0 auto;
+      padding-left: 25px;
+      text-align: left;
+      font-size: 14px;
+      color: #fff;
+      border-radius: 20px;
+    }
+    ul {
+      background: rgba(0, 97, 173, 0.3) !important;
+      box-shadow: none !important;
+    }
+  }
+  // 上面的等于下面的
+  li.subMenu div:nth-of-type(1) {
+    height: 50px !important;
+    line-height: 50px !important;
+  }
+
+  // 这个用的了       是全局的
+  :global(li.ant-menu-item-selected) {
+    background-color: transparent !important;
+    a {
+      background: #a4ce4e;
+    }
+  }
+}
+// 这个用的了       是全局的
+// :global(.ant-menu li.ant-menu-item-selected) {
+//   background-color: transparent !important;
+//   a {
+//     background: #a4ce4e;
+//   }
+// }

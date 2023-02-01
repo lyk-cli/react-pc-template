@@ -1,0 +1,51 @@
+@import "_reset";
+@import "_variable";
+
+// import font
+// @font-face {
+//   font-family: my-font;
+//   src: url("../static/font/webfont.woff");
+// }
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  min-width: 1000px;
+}
+
+body {
+  background: @body_bg_color;
+  color: @label_color;
+  // font-family: my-font;
+  .ant-table-thead > tr > th {
+    background: #e5f4fb;
+  }
+  .bot {
+    text-align: center;
+  }
+  .dbot {
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .doperation {
+    margin-right: 15px;
+  }
+  .operation {
+    color: #0090da;
+  }
+  .ant-form-item-label > label {
+    color: #333 !important;
+    font-size: 12px;
+  }
+}
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  vertical-align: middle;
+  font-size: 12px !important;
+}
+option {
+  font-size: 12px !important;
+}

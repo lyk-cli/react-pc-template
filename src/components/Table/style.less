@@ -1,0 +1,104 @@
+.table-component {
+  background: #fff;
+
+  th,
+  td {
+    text-align: left !important;
+  }
+
+  thead > tr > th > div {
+    font-family: PingFangSC-Medium;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 22px;
+  }
+
+  .ant-table-tbody > tr > td,
+  .ant-table-thead > tr > th {
+    padding: 10px 5px !important;
+    font-size: 12px;
+  }
+
+  .ant-table-thead tr {
+    height: 46px;
+    background: #e5f4fb;
+    font-family: SourceHanSansCN-Normal;
+    font-size: 14px;
+    color: #333333;
+  }
+  .ant-table-tbody tr {
+    height: 50px;
+    font-family: PingFangSC-Regular;
+    font-size: 13px;
+    color: #75787b;
+    text-align: center;
+    td {
+      .editStyle {
+        a {
+          padding: 5px;
+          margin-left: 20px;
+          background-color: rgb(30, 180, 30);
+          color: #fff;
+        }
+        a.disabled {
+          background-color: #ccc;
+        }
+      }
+    }
+  }
+
+  // 左边
+  .ant-pagination > li.ant-pagination-total-text {
+    float: left;
+    font-family: SourceHanSansCN-Regular;
+    font-size: 13px;
+    color: #333;
+  }
+  // 右边页数布局
+  .ant-pagination > li.ant-pagination-options {
+    float: right;
+    .ant-pagination-options-size-changer {
+      width: 200px;
+      background-color: rgba(255, 255, 255, 0.8);
+      div.ant-select-selection--single {
+        height: 40px;
+        div.ant-select-selection__rendered {
+          line-height: 40px;
+        }
+      }
+    }
+  }
+  // 中间
+  .ant-pagination {
+    // 圆圈
+    .ant-pagination-item,
+    .ant-pagination-prev,
+    .ant-pagination-next {
+      min-width: 36px;
+      height: 36px;
+      line-height: 36px;
+      background-color: #ccc;
+      font-family: PingFangSC-Regular;
+      font-size: 15px;
+      color: #333;
+      text-align: center;
+      border-radius: 50%;
+      a {
+        background-color: transparent;
+        border: none;
+      }
+      // 选中
+      &.ant-pagination-item-active {
+        background: #0061a0;
+        a {
+          color: #fff;
+        }
+      }
+    }
+    // 禁用
+    .ant-pagination-disabled {
+      background: #f2f2f2;
+      color: #999;
+    }
+  }
+}

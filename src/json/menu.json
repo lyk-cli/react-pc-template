@@ -1,0 +1,186 @@
+{
+  "code": 0,
+  "msg": "ok",
+  "data": [
+    {
+      "name": "人才库",
+      "code": "d0c56ca7816f4083a3a21",
+      "link": "talentPool",
+      "children": [
+        {
+          "name": "招募对象管理",
+          "code": "48f04026bb7815699be92",
+          "link": "recruitment"
+        }
+      ]
+    },
+    {
+      "name": "内容管理",
+      "code": "d0c56ca7816f4083a31a1",
+      "link": "contentManage",
+      "children": [
+        {
+          "name": "内容配置",
+          "code": "48f04026bb78152699be9112",
+          "link": "content"
+        },
+        {
+          "name": "模版配置",
+          "code": "afasdf123",
+          "link": "template"
+        },
+        {
+          "name": "消息模版配置",
+          "code": "afa00000sdf123",
+          "link": "message"
+        }
+      ]
+    },
+    {
+      "name": "MCS管理",
+      "code": "42c4a4d2042545e04e27",
+      "link": "mcs",
+      "children": [
+        {
+          "name": "MCS师资库",
+          "code": "aasdf12311111",
+          "link": "teacher"
+        },
+        {
+          "name": "MCS场次管理",
+          "code": "48f04026bb4815699be9",
+          "link": "scene"
+        },
+        {
+          "name": "MCS情况跟踪",
+          "code": "48f04026bb43332815699be9",
+          "link": "tracking"
+        }
+      ]
+    },
+    {
+      "name": "测评管理",
+      "code": "42c4a4d2042545e333033333ae27",
+      "link": "evaluation",
+      "children": [
+        {
+          "name": "测评情况跟踪",
+          "code": "48f04026bb7rrrasf845699be9",
+          "link": "tracking"
+        }
+      ]
+    },
+    {
+      "name": "面试管理",
+      "code": "42c4a4d2042545e033333ae27",
+      "link": "interview",
+      "children": [
+        {
+          "name": "面试官时间安排",
+          "code": "48f04026bb117rrrasf845699be9",
+          "link": "interviewerTime"
+        },
+        {
+          "name": "面试官绩效查看",
+          "code": "48f04331026bb117rrrasf845699be9",
+          "link": "interviewerPerformance"
+        }
+      ]
+    },
+    {
+      "name": "OFFER管理",
+      "code": "42c4a4d2012342545e033333ae27",
+      "link": "offer",
+      "children": [
+        {
+          "name": "OFFER情况追踪",
+          "code": "48f03334026bb117rrrasf845699be9",
+          "link": "tracking"
+        },
+        {
+          "name": "OFFEER场次管理",
+          "code": "48f03334026bb117rrrasf845699be9",
+          "link": "offerScene"
+        }
+      ]
+    },
+    {
+      "name": "LPTC管理",
+      "code": "42c4a4d20424445545e033333ae27",
+      "link": "LPTC",
+      "children": [
+        {
+          "name": "LPTC排班管理",
+          "code": "48f04026bb117rrrasf80099945699be9",
+          "link": "scheduling"
+        },
+        {
+          "name": "LPTC情况跟踪",
+          "code": "48f0433102452b117rrrasf845699be9",
+          "link": "tracking"
+        }
+      ]
+    },
+    {
+      "name": "招聘管理",
+      "code": "42c4a324d20424445545e033333ae27",
+      "link": "recruitment",
+      "children": [
+        {
+          "name": "资料审核",
+          "code": "48f04026bb117rrra5553sf80099945699be9",
+          "link": "dataAudit"
+        }
+      ]
+    },
+    {
+      "name": "报表统计",
+      "code": "d0c5644ca7816f4084a3aa",
+      "link": "report",
+      "children": [
+        {
+          "name": "招募效能统计表",
+          "code": "48f04026bb33117rrra5553sf80099945699be9",
+          "link": "effectiveness"
+        }
+      ]
+    },
+    {
+      "name": "系统配置",
+      "code": "42c4a4d204254555e0ae27",
+      "link": "systemConfig",
+      "children": [
+        {
+          "name": "选项配置",
+          "code": "48f04026bb78456115599be9xuanxiang",
+          "link": "option"
+        },
+        {
+          "name": "系统配置",
+          "code": "d326df189dc22294cacb15bxitong",
+          "link": "system"
+        },
+        {
+          "name": "角色权限管理",
+          "code": "48f04026bb78456115599be9",
+          "link": "role"
+        },
+        {
+          "name": "用户管理",
+          "code": "d326df189dc22294cacb15b",
+          "link": "user"
+        },
+        {
+          "name": "系统菜单管理",
+          "code": "48f04026b6788b78456115599be9",
+          "link": "menu"
+        },
+        {
+          "name": "系统代码管理",
+          "code": "d326df189dc22asf000294cacb15b",
+          "link": "code"
+        }
+      ]
+    }
+  ]
+}
