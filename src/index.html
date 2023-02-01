@@ -1,33 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
-    />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
   </head>
-  <style>
-    html {
-      display: none;
-      visibility: hidden;
-    }
-  </style>
   <body>
     <div id="root"></div>
   </body>
-  <script
-    type="text/javascript"
-    src="https://api.map.baidu.com/api?v=2.0&ak=Kb7SGprNEeX8gZGVj90vGXnrZHQfcvxp"
-  ></script>
-  <script>
-    if (self == top) {
-      document.documentElement.style.display = "block";
-      document.documentElement.style.visibility = "visible";
-    } else {
-      top.location = self.location;
-    }
-  </script>
 </html>
