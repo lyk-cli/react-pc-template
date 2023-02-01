@@ -5,9 +5,7 @@
 ```
 npm i
 
-npm run dll
-
-npm start
+npm run dev
 
 npm run build
 ```
@@ -17,30 +15,26 @@ ors
 ```
 yarn
 
-yarn dll
+yarn run dev
 
-yarn start
-
-yarn build
+yarn run build
 ```
 
-open browser http://ip:9000
+open browser http://ip:8081
 
 ## Structure
 
 ```
-├─.babelrc
 ├─.gitignore
-├─build
 ├─package.json
 ├─README.md
 ├─doc
+├─webpack.config.js
+├─tsconfig.json
 ├─src
-│  ├─actions
+│  ├─common
 │  ├─components
-│  ├─constants
 │  ├─containers
-│  ├─reducers
+│  ├─images
 │  ├─store
-│  ├─utils
 ```
